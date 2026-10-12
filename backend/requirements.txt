@@ -1,0 +1,20 @@
+# ErrorSnap AI – Python dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+
+# Web framework
+flask==3.0.3
+
+# CORS support – allows the React frontend to call the Flask backend
+flask-cors==4.0.1
+
+# For loading environment variables from .env files
+python-dotenv==1.0.1
+
+# Google Gen AI SDK – official SDK for Gemini API (supports Gemma 4)
+# The older google-generativeai package reached EOL on Nov 30 2025
+google-genai>=0.8.0
+
+# Pillow – image handling for uploaded screenshots
+Pillow==11.3.0
